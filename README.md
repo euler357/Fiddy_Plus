@@ -43,10 +43,12 @@ You will then first run the openocd server in one session:
 ~~~
 openocd -f fiddy-jtag.cfg -f target/stm32f1x.cfg
 ~~~
-or (if you didn't install the udev rule 
+or (if you didn't install the udev rule) 
 ~~~
 sudo openocd -f fiddy-jtag.cfg -f target/stm32f1x.cfg
 ~~~
+
+The "target/stm32f1x.cfg" defines the architecture and should come with openocd
 
 Then, in another session:
 ~~~
