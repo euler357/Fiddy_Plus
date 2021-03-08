@@ -13,8 +13,32 @@ We designed this because we got tired of getting clone chips and unnecessarily l
 * JTAG Interface
 * UART Interface
 
+## Setup
+In Linux (where most users will be working with this board), you need to add a udev rule to allow all users (or a specific group) to access the board unless you always want to run with sudo or as root.
+
+The 99-fiddy.rules file should be copied to /etc/udev/rules.d/ directory then either reboot or run:
+~~~
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+~~~
+
 ## SPI Example
 
 ## JTAG Example
+
+To get the openocd debugger running with a connection to a JTAG ARM processor, you need to connect the JTAG pins and run openocde with the appropriate options.  Here is an example using the STM32F103C8T6 on a "Blue Pill" board.
+
+| Fiddy Plus  | Blue Pill   |
+| ----------- | ----------- |
+| GND         | GND         |
+| ~SRST       | R (Reset)   |
+| ~TRST       | B4          |
+| TMS         | IO (SWD Header) |
+| TDO         | B3          |
+| TDI         | A15         |
+| TCK         | CLK (SWD Header) |
+| 3.3V        | 3.3V (SWD Header) |
+
+
 
 ## UART Example
