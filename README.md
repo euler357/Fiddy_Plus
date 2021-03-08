@@ -39,6 +39,24 @@ To get the openocd debugger running with a connection to a JTAG ARM processor, y
 | TCK         | CLK (SWD Header) |
 | 3.3V        | 3.3V (SWD Header) |
 
+You will then first run the openocd server in one session:
+~~~
+openocd -f fiddy-jtag.cfg -f target/stm32f1x.cfg
+~~~
+or (if you didn't install the udev rule 
+~~~
+sudo openocd -f fiddy-jtag.cfg -f target/stm32f1x.cfg
+~~~
 
+Then, in another session:
+~~~
+telnet localhost 4444 
+~~~
+
+It should look like this:
+
+| openocd server | openocd telnet session |
+|----------------|------------------------|
+| ![openocd server screenshot](/images/fiddy_plus_blue_pill_jtag_openocd_screenshot.png) |![openocd telnet session screenshot](/images/fiddy_plus_blue_pill_jtag_openocd_screenshot2.png) 
 
 ## UART Example
