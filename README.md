@@ -93,7 +93,7 @@ The first UART port on the Fiddy Plus's FT2232H is connected to the UART pins an
 sudo screen /dev/ttyUSB0 115200
 ~~~
 
-![Fiddy Plus UART screenshot](/images/fiddy_plus_uart_screen_example.png)
+![Fiddy Plus UART screenshot](/images/Fiddy_plus_uart_screen_example.png)
 
 ## Advanced Modes
 FTDI publishes a lot of information about this chip:
