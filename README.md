@@ -91,9 +91,9 @@ It should look like this:
 ## Advanced Modes
 FTDI publishes a lot of information about this chip:
 
-[FTDI FT2232HL Main Page](https://ftdichip.com/products/ft2232hl/)
-[AN 113 FTDI FT2232H Hi SPeed USB To I2C Example](https://ftdichip.com/wp-content/uploads/2020/08/AN_113_FTDI_Hi_Speed_USB_To_I2C_Example.pdf)
-[AN 114 FTDI FT2232H Hi SPeed USB To SPI Example](https://ftdichip.com/wp-content/uploads/2020/08/AN_114_FTDI_Hi_Speed_USB_To_SPI_Example.pdf)
-[AN 124 User Guide for FTDI FT_PROG Utility](https://ftdichip.com/wp-content/uploads/2020/08/AN_124_User_Guide_For_FT_PROG.pdf)
-[AN 129 Interfacing FT2232H Hi-Speed Devices to a JTAG TAP](https://ftdichip.com/wp-content/uploads/2020/08/AN_129_FTDI_Hi_Speed_USB_To_JTAG_Example.pdf)
-[AN 130 FT2232H Used In An FT245 Style Synchronous FIFO Mode](https://ftdichip.com/wp-content/uploads/2020/08/AN_130_FT2232H_Used_In_FT245-Synchronous-FIFO-Mode.pdf)
+* [FTDI FT2232HL Main Page](https://ftdichip.com/products/ft2232hl/)
+* [AN 113 FTDI FT2232H Hi Speed USB To I2C Example](https://ftdichip.com/wp-content/uploads/2020/08/AN_113_FTDI_Hi_Speed_USB_To_I2C_Example.pdf)
+* [AN 114 FTDI FT2232H Hi Speed USB To SPI Example](https://ftdichip.com/wp-content/uploads/2020/08/AN_114_FTDI_Hi_Speed_USB_To_SPI_Example.pdf)
+* [AN 124 User Guide for FTDI FT_PROG Utility](https://ftdichip.com/wp-content/uploads/2020/08/AN_124_User_Guide_For_FT_PROG.pdf)
+* [AN 129 Interfacing FT2232H Hi-Speed Devices to a JTAG TAP](https://ftdichip.com/wp-content/uploads/2020/08/AN_129_FTDI_Hi_Speed_USB_To_JTAG_Example.pdf)
+* [AN 130 FT2232H Used In An FT245 Style Synchronous FIFO Mode](https://ftdichip.com/wp-content/uploads/2020/08/AN_130_FT2232H_Used_In_FT245-Synchronous-FIFO-Mode.pdf)
