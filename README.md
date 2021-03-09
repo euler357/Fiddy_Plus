@@ -24,6 +24,26 @@ sudo udevadm trigger
 
 ## SPI Example
 
+To dump a SPI Flash Image, connect the Fiddy Plus as follows:
+
+| Fiddy Plus  | SPI Flash Chip   |
+| ----------- | ----------- |
+| GND         | GND         |
+| TMS         | CS          |
+| TDO         | MISO        |
+| TDI         | MOSI        |
+| TCK         | CLK         |
+| 3.3V        | 3.3V (Optional) |
+
+
+~~~
+sudo flashrom -p ft2232_spi:type=2232H,port=B
+~~~
+or you may need to slow it down to get a stable read
+~~~
+sudo flashrom -p ft2232_spi:type=2232H,port=B,divisor=4
+~~~
+
 ## JTAG Example
 
 To get the openocd debugger running with a connection to a JTAG ARM processor, you need to connect the JTAG pins and run openocde with the appropriate options.  Here is an example using the STM32F103C8T6 on a "Blue Pill" board.
@@ -56,7 +76,6 @@ telnet localhost 4444
 ~~~
 
 It should look like this:
-
 | openocd server | openocd telnet session |
 |----------------|------------------------|
 | ![openocd server screenshot](/images/fiddy_plus_blue_pill_jtag_openocd_screenshot.png) |![openocd telnet session screenshot](/images/fiddy_plus_blue_pill_jtag_openocd_screenshot2.png) 
