@@ -105,3 +105,5 @@ FTDI publishes a lot of information about this chip:
 * [AN 124 User Guide for FTDI FT_PROG Utility](https://ftdichip.com/wp-content/uploads/2020/08/AN_124_User_Guide_For_FT_PROG.pdf)
 * [AN 129 Interfacing FT2232H Hi-Speed Devices to a JTAG TAP](https://ftdichip.com/wp-content/uploads/2020/08/AN_129_FTDI_Hi_Speed_USB_To_JTAG_Example.pdf)
 * [AN 130 FT2232H Used In An FT245 Style Synchronous FIFO Mode](https://ftdichip.com/wp-content/uploads/2020/08/AN_130_FT2232H_Used_In_FT245-Synchronous-FIFO-Mode.pdf)
+
+The FT2232H can be used for I2C, SUMP logic analyzer, and many other interfaces.
