@@ -88,6 +88,13 @@ It should look like this:
 
 ## UART Example
 
+The first UART port on the Fiddy Plus's FT2232H is connected to the UART pins and associated TX / RX LEDs.  In Linux, the screen command can be used to access the port on /dev/ttyUSB0 as follows
+~~~
+sudo screen /dev/ttyUSB0 115200
+~~~
+
+![Fiddy Plus UART screenshot](/images/fiddy_plus_uart_screen_example.png)
+
 ## Advanced Modes
 FTDI publishes a lot of information about this chip:
 
