@@ -29,10 +29,10 @@ To dump a SPI Flash Image, connect the Fiddy Plus as follows:
 | Fiddy Plus  | SPI Flash Chip   |
 | ----------- | ----------- |
 | GND         | GND         |
-| TMS         | CS          |
-| TDO         | MISO        |
-| TDI         | MOSI        |
-| TCK         | CLK         |
+| CS          | CS          |
+| MISO        | MISO        |
+| MOSI        | MOSI        |
+| CLK         | CLK         |
 | 3.3V        | 3.3V (Optional) |
 
 
