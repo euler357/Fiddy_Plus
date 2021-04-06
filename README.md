@@ -37,11 +37,13 @@ To dump a SPI Flash Image, connect the Fiddy Plus as follows:
 | CLK         | CLK         |
 | 3.3V        | 3.3V (Optional) |
 
+Here is a Fiddy Plus connected to a Winbond W25Q32 SOIC-8 SPI FLASH IC with a Pomona IC Clip
+![Fiddy Plus SPI FLASH Connected](/images/SPI_Fiddy_Connected.jpg)
 
 ~~~
 sudo flashrom -p ft2232_spi:type=2232H,port=B
 ~~~
-or you may need to slow it down to get a stable read
+or you may need to slow it down to get a stable read depending on the chip and your setup
 ~~~
 sudo flashrom -p ft2232_spi:type=2232H,port=B,divisor=4
 ~~~
