@@ -47,10 +47,9 @@ sudo flashrom -p ft2232_spi:type=2232H,port=B,divisor=4
 ~~~
 
 It should look like this:
-REPLACE WITH CORRECT SCREENSHOTS
-| SPI Command | SPI Dump |
-|----------------|------------------------|
-| ![openocd server screenshot](/images/fiddy_plus_blue_pill_jtag_openocd_screenshot.png) |![openocd telnet session screenshot](/images/fiddy_plus_blue_pill_jtag_openocd_screenshot2.png) 
+| SPI Write | SPI Read | SPI Diff |
+|----------------|------------|------------|
+| ![SPI Write Screenshot](/images/SPI_Write.jpg) | ![SPI Read Screenshot](/images/SPI_Read.jpg) | ![SPI Read-Write-Compare Screenshot](/images/SPI_Read_Write_Compare.jpg)  
 
 ## JTAG Example
 
