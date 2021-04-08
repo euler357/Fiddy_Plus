@@ -35,7 +35,9 @@ To dump a SPI Flash Image, connect the Fiddy Plus as follows:
 | MISO        | MISO        |
 | MOSI        | MOSI        |
 | CLK         | CLK         |
-| 3.3V        | 3.3V (Optional) |
+| 3.3V        | 3.3V (if not powered) |
+| ~WP         | 3.3V (may not be needed) |
+| ~HOLD       | 3.3V (may not be needed) |
 
 Here is a Fiddy Plus connected to a Winbond W25Q32 SOIC-8 SPI FLASH IC with a Pomona IC Clip
 ![Fiddy Plus SPI FLASH Connected](/images/SPI_Fiddy_Connected.jpg)
