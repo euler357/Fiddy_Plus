@@ -112,3 +112,7 @@ FTDI publishes a lot of information about this chip:
 * [AN 130 FT2232H Used In An FT245 Style Synchronous FIFO Mode](https://ftdichip.com/wp-content/uploads/2020/08/AN_130_FT2232H_Used_In_FT245-Synchronous-FIFO-Mode.pdf)
 
 The FT2232H can be used for I2C, SUMP logic analyzer, and many other interfaces.
+
+## ERRATA
+The RTS and GND pins are mis-labelled on the Rev C and Rev D boards on the BOTTOM silkscreen.  The TOP silkscreen in correct.
+
