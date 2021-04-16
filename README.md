@@ -113,6 +113,8 @@ FTDI publishes a lot of information about this chip:
 
 The FT2232H can be used for I2C, SUMP logic analyzer, and many other interfaces.
 
+The "FT_Prog_fiddy_plus_eeprom_template.xml" template is provided as a starting point to program the EEPROM in the Fiddy Plus using FTDI's FT_Prog software.
+
 ## ERRATA
 The RTS and GND pins are mis-labelled on the Rev C and Rev D boards on the BOTTOM silkscreen.  The TOP silkscreen in correct.
 
